@@ -27,16 +27,6 @@ note: NUMBER is a positive integer number;
 
 Write a function in node.js that reads this file and returns the number, which is a sum of all "value" numbers from the file;
 
- 
-
-
-CONTINUED ON NEXT PAGE
-
-
-
-
-
-
 4. Refactor the code below.
 (do not create functions or constants, code refactor is required only)
 
@@ -86,4 +76,3 @@ calc = 2 * basis(amt) + extra(amt) * 1.05;
 https://www.metaweather.com/api/
 Your app should allow the user to search for a city and see that day's forecast.
 Styling is not important, you can use default browser styles.
-
