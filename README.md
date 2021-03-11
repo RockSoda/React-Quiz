@@ -81,6 +81,6 @@ calc = 2 * basis(amt) + extra(amt) * 1.05;
 ```
 
 
-5. Write a small react or react native app that uses this weather api: `https://www.metaweather.com/api/`
+5. Write a small react or react native app that uses this weather api: `https://www.metaweather.com/api/`  
 Your app should allow the user to search for a city and see that day's forecast.  
 Styling is not important, you can use default browser styles.  
