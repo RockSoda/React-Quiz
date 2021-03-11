@@ -37,7 +37,8 @@ Write a function in node.js that reads this file and returns the number, which i
 (do not create functions or constants, code refactor is required only)
 
  Original:
-```if (province == 'ONTARIO') {
+```
+if (province == 'ONTARIO') {
    rate = ONTARIO_RATE;
    amt = base * ONTARIO_RATE;
    calc = 2 * basis(amt) + extra(amt) * 1.05;
@@ -54,7 +55,8 @@ Write a function in node.js that reads this file and returns the number, which i
    calc = 2 * basis(amt) + extra(amt) * 1.05;
 }
 ```
-Refactored:```
+Refactored:
+```
 switch(province){
    case 'ONTARIO':{
       rate = ONTARIO_RATE;
@@ -75,7 +77,8 @@ switch(province){
    }
 }
 amt = base * rate;
-calc = 2 * basis(amt) + extra(amt) * 1.05;```
+calc = 2 * basis(amt) + extra(amt) * 1.05;
+```
 
 
 5. Write a small react or react native app that uses this weather api:
