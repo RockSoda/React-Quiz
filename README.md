@@ -1,13 +1,19 @@
 # React-Quiz
 
 1. Write a react function that takes the following input:
+```
 rooms = [
     { room_type: "Queen", vacant_rooms: 5, price: 100 },
     { room_type: "Double", vacant_rooms: 3, price: 75 },
     { room_type: "Twin", vacant_rooms: 8, price: 60 }
   ];
+```
 And produces the following output:
+```
 <ol><li>Queen, 5, $100</li><li>Double, 3, $75</li><li>Twin, 8, $60</li></ol>
+```
+
+
   
  
 2. Write a function in Javascript, which receives NUMBER and has the next logic:
@@ -31,7 +37,7 @@ Write a function in node.js that reads this file and returns the number, which i
 (do not create functions or constants, code refactor is required only)
 
  Original:
-if (province == 'ONTARIO') {
+```if (province == 'ONTARIO') {
    rate = ONTARIO_RATE;
    amt = base * ONTARIO_RATE;
    calc = 2 * basis(amt) + extra(amt) * 1.05;
@@ -47,8 +53,8 @@ if (province == 'ONTARIO') {
    amt = base;
    calc = 2 * basis(amt) + extra(amt) * 1.05;
 }
-
-Refactored:
+```
+Refactored:```
 switch(province){
    case 'ONTARIO':{
       rate = ONTARIO_RATE;
@@ -69,7 +75,7 @@ switch(province){
    }
 }
 amt = base * rate;
-calc = 2 * basis(amt) + extra(amt) * 1.05;
+calc = 2 * basis(amt) + extra(amt) * 1.05;```
 
 
 5. Write a small react or react native app that uses this weather api:
